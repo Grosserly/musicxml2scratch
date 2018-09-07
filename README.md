@@ -1,14 +1,13 @@
-#musicXml2scratch
+# musicXml2scratch
 
-musicXml2scratch converts musicXML files (see http://www.musicxml.org/)
-into text files which can be imported into a Scratch (see http://scratch.mit.edu) project
+musicXml2scratch converts [musicXML files](http://www.musicxml.org/)
+into text files which can be imported into a [Scratch](http://scratch.mit.edu/) project
 from where they can just be played to your audience or even build a Synthesia, Guitar Hero,
 whatever-like game.
 
-This project is **99% stable**. For a list of known, bugs,
-visit the [Issues].
+This project is **99% stable**.
 
-##Convert a musicXML file
+## Convert a musicXML file
     Just use the interface on the index.php
     
 ## Release
