@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- musicxml2scratch -->
+<html>
+	<head>
+		<title>musicXML converter</title>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/progress.js"></script>
+		<link rel="stylesheet" href="css/styles.css">
+        <link rel="shortcut icon" href="/favicon.png">
+	</head>
+	<body class="garlic-theme">
+		<h2 class="garlic-theme garlic-chunk">Convert musicXML into <a href="https://scratch.mit.edu/">Scratch</a> lists</h2>
+		
+		<div style="text-align:center">
+		<form action="php/upload.php" method="post" enctype="multipart/form-data">
+			<input type="file" id="mxlxml" name="mxlxml" accept="application/vnd.recordare.musicxml|application/vnd.recordare.musicxml+xml" />
+			<input type="submit" value="Start" />
+		</form>		
+		<progress id="upload" value="0"></progress>
+		<div id="file">
+			<table class="garlic-menu">
+				<tr>
+					<td tyle="text-align:right">Name: </td>
+					<td id="name">Nothing selected</td>
+				</tr>
+				<tr>
+					<td style="text-align:right">Size: </td>
+					<td id="size">Nothing selected</td>
+				</tr>
+				<tr>
+					<td style="text-align:right">Type:</td>
+					<td id="mime">Nothing selected</td>
+				</tr>
+			</table>
+		</div>
+		</div>
+	</body>
+</html>
