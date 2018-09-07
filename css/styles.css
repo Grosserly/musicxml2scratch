@@ -2,10 +2,10 @@
                 font-weight:      normal;
                 text-decoration:  none;
                 color:            #171717;
-                background-color: #fafafa; }
+                background-color: #FAFAFA; }
 
 .garlic-chunk { background-color: #4CAF50;
-                color:            #fafafa;
+                color:            #FAFAFA;
                 padding:          15px;
                 width:            60%;
                 height:           25px;
@@ -29,7 +29,7 @@
 tr            { width:            70% }
 
 th            { font-size:        24px;
-                color:            #a55858;
+                color:            #A55858;
                 width:            30%; }
 
 td            { text-align:       center; }
